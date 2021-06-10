@@ -1,0 +1,354 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Basic.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO4UZGqPMiQcUMAYOUIyd2s",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ayush-Pattnaik/Git_code_1/blob/branch-1/Basic.ipynb%20Dt%20-10-06-21\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R4QLYe2fuIXX",
+        "outputId": "75421536-408a-4fb1-df49-d96755bca7fe"
+      },
+      "source": [
+        "print('Hello world')"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Hello world\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ATkyilqduHuI",
+        "outputId": "3009c587-b4e9-4c6c-eefc-8db2934b826c"
+      },
+      "source": [
+        "print(5*3)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "15\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ukvyh0CVuxgn",
+        "outputId": "6f543748-40b1-4f66-feee-49af86525c45"
+      },
+      "source": [
+        "print(8/4)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "2.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_HJa6Hdxu2LL",
+        "outputId": "7fbf2c00-e1a5-4b26-ce81-bf46cc8bd059"
+      },
+      "source": [
+        "print(9-6)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-_9v8gSlu6UK",
+        "outputId": "7786ab9b-2a13-49c4-f5d6-7fa0a301363a"
+      },
+      "source": [
+        "print(9+9)"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "18\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qecsCj2nu_Cl",
+        "outputId": "88afddd6-03b1-4418-88a9-3d0129dc90c8"
+      },
+      "source": [
+        "Name='Ayush'\n",
+        "print('Hello '+Name)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Hello Ayush\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7Qmk5K3fv0xd",
+        "outputId": "a61a5546-1864-4822-8997-d094f9f53c0f"
+      },
+      "source": [
+        "print(type(2))\n",
+        "print(type(2.55454616))\n",
+        "print(type(3+546j))\n",
+        "print(type(True))\n",
+        "print(type('Ayush'))"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'complex'>\n",
+            "<class 'bool'>\n",
+            "<class 'str'>\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oXTub4RLwses",
+        "outputId": "c7cc2915-9508-48a4-9db4-4eadf63991af"
+      },
+      "source": [
+        "a=0;b=54;c=66;d=44;e=9\n",
+        "w=a+b+c\n",
+        "x=a=b\n",
+        "y=d/e\n",
+        "\n",
+        "z=a<b\n",
+        "print(w,x,y,z)\n",
+        "print(type(x),type(w),type(y),type(z))\n",
+        "     "
+      ],
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "120 54 4.888888888888889 False\n",
+            "<class 'int'> <class 'int'> <class 'float'> <class 'bool'>\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "B0M5jQMk0Dh5"
+      },
+      "source": [
+        "Conversion of data type"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UVq-EBNAy2Vp",
+        "outputId": "907094b4-acf8-4103-d660-e20e7e33a859"
+      },
+      "source": [
+        "a=0;b=54;c=int(6.6) # b is been converted from floating point to integer\n",
+        "d=44;e=9.5\n",
+        "print(type(a))\n",
+        "# Converting integer to floating type\n",
+        "a=float(a)\n",
+        "print(type(a))\n",
+        "print(type(c),c)\n",
+        "# Converting int to boolean\n",
+        "print(bool(45))\n",
+        "print(bool(0))"
+      ],
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'int'> 6\n",
+            "True\n",
+            "False\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "780TBWjc25iF"
+      },
+      "source": [
+        "Arithematic Operators"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W_mrf2Wb2TYC",
+        "outputId": "55986484-7cfe-4d17-d50f-551dcb4d6341"
+      },
+      "source": [
+        "print(7%2) # yeilds remainder\n",
+        "print(5**2) # yeilds exponential power\n",
+        "print(5//2) #floor division)"
+      ],
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "1\n",
+            "25\n",
+            "2\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JUS_ojAn3U5i",
+        "outputId": "e0b04304-1d98-4df0-c6a3-93e7aafe04f9"
+      },
+      "source": [
+        "b=a=5+2\n",
+        "\n",
+        "a**=2\n",
+        "b%=10\n",
+        "print(a)\n",
+        "print(b)"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "49\n",
+            "7\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qknxbwi737zl"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
